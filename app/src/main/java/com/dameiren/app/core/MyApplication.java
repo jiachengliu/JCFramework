@@ -31,8 +31,7 @@ import com.lzy.okhttputils.model.HttpParams;
  * 描述：
  */
 public class MyApplication extends Application {
-    public static int screenW;
-    public static int screenH;
+    public static String uid;
 
     @Override
     public void onCreate() {
@@ -43,8 +42,8 @@ public class MyApplication extends Application {
         headers.put("commonHeaderKey1", "commonHeaderValue1");    //所有的 header 都 不支持 中文
         headers.put("commonHeaderKey2", "commonHeaderValue2");
         HttpParams params = new HttpParams();
-        params.put("commonParamsKey1", "commonParamsValue1");     //所有的 params 都 支持 中文
-        params.put("commonParamsKey2", "这里支持中文参数");
+//        params.put("commonParamsKey1", "commonParamsValue1");     //所有的 params 都 支持 中文
+//        params.put("commonParamsKey2", "这里支持中文参数");
 
         //必须调用初始化
         OkHttpUtils.init(this);
@@ -66,4 +65,11 @@ public class MyApplication extends Application {
         MultiDex.install(this);
     }
 
+    public void setUid(String uid) {
+        this.uid = uid;
+    }
+
+    public static String getUid() {
+        return uid;
+    }
 }

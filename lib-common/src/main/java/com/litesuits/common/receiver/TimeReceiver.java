@@ -5,7 +5,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Bundle;
-import com.litesuits.android.log.Log;
+
+import com.litesuits.utils.log.Log;
 
 /**
  * 时间广播

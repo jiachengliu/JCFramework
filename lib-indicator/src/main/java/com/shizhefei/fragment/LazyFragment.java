@@ -21,7 +21,7 @@ import android.widget.FrameLayout;
  * @author LuckyJayce
  *
  */
-public class LazyFragment extends BaseFragment {
+public class LazyFragment extends BaseLazyFragment {
 	private boolean isInit = false;
 	private Bundle savedInstanceState;
 	public static final String INTENT_BOOLEAN_LAZYLOAD = "intent_boolean_lazyLoad";

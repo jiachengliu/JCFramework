@@ -1,12 +1,17 @@
 package com.litesuits.common.receiver;
 
-import android.content.*;
+import android.content.BroadcastReceiver;
+import android.content.ContentValues;
+import android.content.Context;
+import android.content.Intent;
+import android.content.IntentFilter;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.telephony.SmsManager;
 import android.telephony.SmsMessage;
-import com.litesuits.android.log.Log;
+
+import com.litesuits.utils.log.Log;
 
 import java.util.List;
 

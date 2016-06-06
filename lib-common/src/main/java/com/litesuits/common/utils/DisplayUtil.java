@@ -2,7 +2,8 @@ package com.litesuits.common.utils;
 
 import android.content.Context;
 import android.util.DisplayMetrics;
-import com.litesuits.android.log.Log;
+
+import com.litesuits.utils.log.Log;
 
 /**
  * @author MaTianyu

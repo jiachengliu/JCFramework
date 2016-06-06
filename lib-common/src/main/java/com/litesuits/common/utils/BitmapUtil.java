@@ -7,8 +7,8 @@ import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.Build;
 import android.provider.MediaStore;
-import com.litesuits.android.log.Log;
 import com.litesuits.common.assist.Base64;
+import com.litesuits.utils.log.Log;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;

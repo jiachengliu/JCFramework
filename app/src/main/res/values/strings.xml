@@ -3,4 +3,6 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="ex_str_param_not_empty">参数不能为空</string>
+    <string name="ex_str_net_no">网络不可用</string>
 </resources>

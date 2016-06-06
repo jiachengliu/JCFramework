@@ -1,6 +1,6 @@
 package com.litesuits.common.assist;
 
-import com.litesuits.android.log.Log;
+import com.litesuits.utils.log.Log;
 
 /**
  * Time Counter.

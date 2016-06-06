@@ -2,10 +2,10 @@ package com.litesuits.common.data;
 
 import android.content.Context;
 import android.content.SharedPreferences;
-import com.litesuits.android.log.Log;
 import com.litesuits.common.data.cipher.Cipher;
 import com.litesuits.common.utils.ByteUtil;
 import com.litesuits.common.utils.HexUtil;
+import com.litesuits.utils.log.Log;
 
 /**
  * @author MaTianyu

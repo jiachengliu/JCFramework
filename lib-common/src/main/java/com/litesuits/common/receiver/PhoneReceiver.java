@@ -5,8 +5,9 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Bundle;
-import com.litesuits.android.log.Log;
+
 import com.litesuits.common.assist.Check;
+import com.litesuits.utils.log.Log;
 
 /**
  * <uses-permission android:name="android.permission.READ_PHONE_STATE"/>

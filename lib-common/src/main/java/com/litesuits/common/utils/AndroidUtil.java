@@ -5,7 +5,8 @@ import android.net.wifi.WifiInfo;
 import android.net.wifi.WifiManager;
 import android.os.Build;
 import android.os.SystemClock;
-import com.litesuits.android.log.Log;
+
+import com.litesuits.utils.log.Log;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

@@ -12,7 +12,8 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
 
-import com.litesuits.android.log.Log;
+
+import com.litesuits.utils.log.Log;
 
 import java.util.ArrayList;
 
